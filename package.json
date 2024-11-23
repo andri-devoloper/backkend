@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "prisma generate && npm i express-fileupload",
+    "build": "prisma generate && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "commonjs",
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "prisma": "^5.22.0"
+  }
+}
