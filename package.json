@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "postinstall": "prisma generate && npm i express-fileupload",
+    "postinstall": "prisma generate",
     "build": "prisma generate && npm run build"
   },
   "author": "",
